@@ -1,0 +1,65 @@
+ReasonId,ReasonName,ReasonCode,IsActive,AddBy,EdittedBy,IsManaged,IsSchLoss,OrganizationId,InfluxReasonId,StoppageReasonTypeId,IsMaintanance
+5,Servo Drive Error Misc,01,False,0,1008,,False,5,0,,
+6,Mechanical,01,False,0,1,,False,5,0,,
+7,Electrical,02,False,0,1,,False,5,0,,
+8,Power Cut,03,False,0,1,,False,5,0,,
+9,Die Change Over,04,False,0,1,,False,5,0,,
+10,No Man Power,05,False,0,1,,False,5,0,,
+11,No Material,06,False,0,1,,False,5,0,,
+12,Servo Motor Faulty,08,False,0,1,,False,5,0,,
+13,Mechanical Fault,09,False,0,1,,False,5,0,,
+14,Elecrical Fault,10,False,0,1,,False,5,0,,
+15,Power Cut,11,False,0,1,,False,5,0,,
+16,Power Trip,12,False,0,1,,False,5,0,,
+17,Low Voltage,13,False,0,1,,False,5,0,,
+18,Hydraulic Pressure Low,14,False,0,1,,False,5,0,,
+19,Clamp Not Working,15,False,0,1,,False,5,0,,
+20,Axis Over Travel,16,False,0,1,,False,5,0,,
+21,Air Pressure Low,17,False,0,1,,False,5,0,,
+22,Clutch Not Working,18,False,0,1,,False,5,0,,
+23,Timing Belt Broken,19,False,0,1,,False,5,0,,
+24,V- Belt Broken,20,False,0,1,,False,5,0,,
+25,Pickup Arm Not Working,21,False,0,1,,False,5,0,,
+26,Feeder Motor Not Working,22,False,0,1,,False,5,0,,
+27,Sensor Problem,23,False,0,1,,False,5,0,,
+28,Read Switch Problem,24,False,0,1,,False,5,0,,
+29,Cylinder Problem,25,False,0,1,,False,5,0,,
+30,Solenoid Valve Not Woking,26,False,0,1,,False,5,0,,
+31,अन्य (Other),10,True,0,1,,False,5,0,5,
+32,NO Data Entry,28,False,0,1008,,False,5,0,,
+1035,No Plan,29,False,0,1,,True,5,0,,
+1036,No Raw Material,30,False,0,1,,False,5,0,,
+1042,No Manpower,31,False,1,1,,False,5,0,,
+1043,शेडयूल ब्रेक (Scheduled Break),09,True,1,1,,True,5,0,5,
+1044,Reference Point,33,False,1,1,,False,5,0,,
+1045,लंच (Lunch),08,True,1005,1012,,True,5,0,5,
+1046,Machine Cleaning,35,False,1005,1,,False,5,0,,
+1047,No Input Material,36,False,1005,1,,False,5,0,,
+1048,नो प्लान (No Plan),07,True,1,1012,,True,5,0,5,
+1049,मैकेनिकल (Mechanical),01,True,1,1,,False,5,0,4,True
+1050,इलेक्ट्रिकल (Electrical),02,True,1,1,,False,5,0,4,True
+1051,पावर कट (Power Cut),03,True,1,1,,False,5,0,4,True
+1052,डाई चेंज ओवर (Die Change Over),04,True,1,1,,True,5,0,4,True
+1053,नो मैनपावर (No Manpower),05,True,1,1,,False,5,0,1,True
+1054,नो मैटीरियल (No Material),06,True,1,1,,False,5,0,3,True
+2048,अनशेडयूल लॉस (Unscheduled Loss),12,True,1,1,,False,5,0,4,True
+2049,मशीन अंडर मेंटेनेंस (Machine Under Maintenance),11,True,1,1,,False,5,0,4,True
+2050,डाई फॉल्ट (Die Fault),13,True,1012,1,,False,5,1,4,True
+3050,PLUNGER CHANGE,14,True,1012,1,,True,5,0,5,True
+3051,NO LAMINATION,15,True,1012,1,,True,5,0,3,False
+3052,COIL PROBLEM,16,True,1012,1,,False,5,0,3,True
+3053,Die under maintenance,17,True,1012,1,,False,5,0,3,True
+3054,Die Matching,18,True,1012,1,,False,5,0,0,True
+3055,Shift Change Over,20,True,1012,1,,True,5,0,1,False
+4050,SHIFT CHANGE OVER,25,False,1012,1,,True,5,0,1,False
+4051,De Gassing,21,True,1012,1012,,False,5,0,4,False
+4052,Tea Break,Tea Break,True,1012,1012,,False,5,0,5,False
+5052,PLUNGER SLIP,PLUNGER SLIP,True,1012,1012,,True,5,0,2,False
+5053,Die Cooling,23,True,1012,1012,,False,5,0,4,True
+5054,Die Cleaning,24,True,1012,1012,,False,5,0,4,True
+6053,RUNNER BROKEN ( RUNNER JAAM IN SLEEVE),RUNNER BROKEN ( RUNNER JAAM IN SLEEVE),True,1012,1012,,False,5,0,5,False
+6054,ISSUE IN HAND SPRAY,ISSUE IN HAND SPRAY,True,1012,1012,,False,5,0,5,False
+6055,Plunger Rod Issue,Plunger rod,True,1012,1012,,False,5,0,2,False
+6056,Ladle Cup Damaged,Ladle Cup,True,1012,1012,,False,5,0,2,False
+6057,Die Trial,Trial,True,1012,1012,,True,5,0,2,False
+6058,False Breakdown,False ,True,1012,1012,,False,5,0,5,False
